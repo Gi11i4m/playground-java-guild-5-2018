@@ -3,7 +3,7 @@ package com.yourself;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 public class UpperCase {
 // }
