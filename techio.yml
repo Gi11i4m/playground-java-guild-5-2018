@@ -1,18 +1,17 @@
-title : Java Maven Project
+title: Java Guild Meeting 5/2018
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Intro # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/intro.md # Set the file path to the page content
+  - title: Practice
+    statement: markdowns/practice.md
 
 
 # Settings for your programming projects and the associated Docker images
 projects:
   java:
     root: /java-project # Set the root path to your Java project
-
     # Set the docker image. This image runs JUnit tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.java", "EditorFile2.java", ...], "command": "MyJUnitClass#myMethod"})
     # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
