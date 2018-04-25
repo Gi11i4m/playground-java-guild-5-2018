@@ -15,6 +15,6 @@ public class SumAndReduce {
 		return total;
 	}
 
-//{ autofold
+// { autofold
 }
-//}
+// }

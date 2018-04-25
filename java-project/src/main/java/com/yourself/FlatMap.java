@@ -19,6 +19,6 @@ public static List<String> transform(List<List<String>> collection) {
 	return newCollection;
 }
 
-//{ autofold
+// { autofold
 }
-//}
+// }
