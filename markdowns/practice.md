@@ -4,4 +4,4 @@ Now that we know how to use streams, let's try another exercise and get to know 
  * [mapToInt](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#mapToInt-java.util.function.ToIntFunction-) → this will return an IntStream
  * [sum](https://docs.oracle.com/javase/8/docs/api/java/util/stream/IntStream.html#sum--)
 
-@[Rewrite this garbage using Streams and make sure the test still runs!]({"stubs": ["src/main/java/com/yourself/UpperCase.java"], "command": "com.yourself.UpperCaseTest#test"})
+@[Now, starting again from a list of names, give me the total number of letters in all the names with more than 5 letters]({"stubs": ["src/main/java/com/yourself/LetterCount.java"], "command": "com.yourself.LetterCountTest#test"})
