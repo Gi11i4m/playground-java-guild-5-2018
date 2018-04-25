@@ -13,7 +13,7 @@ Remember, you can find the documentation on Streams [right here](https://docs.or
     "command": "com.yourself.MaxAndComparatorTest#getOldestPersonShouldReturnOldestPerson"
 })
 
-@[Sum all elements of a collection and try to use the reduce function with the identity parameter instead of an IntStream]({
+@[Sum all elements of a collection, try to use the reduce operator with identity parameter instead of an IntStream]({
     "stubs": ["src/main/java/com/yourself/SumAndReduce.java"], 
     "command": "com.yourself.SumAndReduceTest#transformShouldConvertCollectionElementsToUpperCase"
 })
