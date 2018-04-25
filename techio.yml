@@ -6,6 +6,8 @@ plan:
     statement: markdowns/intro.md # Set the file path to the page content
   - title: Practice
     statement: markdowns/practice.md
+  - title: Micro kata's
+    statement: markdowns/micro-katas.md
 
 
 # Settings for your programming projects and the associated Docker images
