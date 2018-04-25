@@ -10,10 +10,10 @@ Remember, you can find the documentation on Streams [right here](https://docs.or
 
 @[Get the oldest person from the collection]({
     "stubs": ["src/main/java/com/yourself/MaxAndComparator.java"], 
-    "command": "com.yourself.MaxAndComparator#getOldestPersonShouldReturnOldestPerson"
+    "command": "com.yourself.MaxAndComparatorTest#getOldestPersonShouldReturnOldestPerson"
 })
 
 @[Sum all elements of a collection, but this time, try to use the reduce function with the identity parameter instead of an IntStream]({
     "stubs": ["src/main/java/com/yourself/MaxAndComparator.java"], 
-    "command": "com.yourself.MaxAndComparator#getOldestPersonShouldReturnOldestPerson"
+    "command": "com.yourself.SumAndReduceTest#transformShouldConvertCollectionElementsToUpperCase"
 })
