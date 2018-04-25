@@ -18,7 +18,7 @@ public class MaxAndComparator {
 		return oldestPerson;
 	}
 
-// { autofold
+//{ autofold
 }
 
 class Person {
@@ -35,4 +35,4 @@ class Person {
 		return age;
 	}
 }
-// }
+//}
