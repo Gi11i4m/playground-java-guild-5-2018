@@ -1,8 +1,7 @@
 // { autofold
 package com.yourself;
 
-import java.util.ArrayList;
-import java.util.Collection;
+import java.util.*;
 import java.util.stream.*;
 
 import static java.util.stream.Collectors.*;

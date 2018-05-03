@@ -2,8 +2,6 @@ package com.yourself;
 
 import org.junit.Test;
 
-import java.util.Collections;
-
 import static com.yourself.UpperCase.mapToUppercase;
 import static java.util.Arrays.asList;
 import static java.util.Collections.singletonList;

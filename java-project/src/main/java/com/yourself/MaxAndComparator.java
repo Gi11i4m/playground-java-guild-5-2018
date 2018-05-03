@@ -1,9 +1,7 @@
 // { autofold
 package com.yourself;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class MaxAndComparator {
 // }
@@ -19,22 +17,5 @@ public class MaxAndComparator {
 	}
 
 // { autofold
-}
-// }
-
-// { autofold
-class Person {
-
-	private String name;
-	private int age;
-
-	public Person(String name, int age) {
-		this.name = name;
-		this.age = age;
-	}
-
-	public int getAge() {
-		return age;
-	}
 }
 // }

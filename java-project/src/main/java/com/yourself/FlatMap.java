@@ -1,10 +1,9 @@
 // { autofold
 package com.yourself;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
-import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.*;
 
 public class FlatMap {
 // }

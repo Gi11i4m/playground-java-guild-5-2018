@@ -1,7 +1,7 @@
 // { autofold
 package com.yourself;
 
-import java.util.stream.Stream;
+import java.util.stream.*;
 
 public class LetterCount {
 // }
