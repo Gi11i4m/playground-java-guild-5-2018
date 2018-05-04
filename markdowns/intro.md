@@ -11,8 +11,10 @@ an ugly old for-loop, you have return your garbage list at the end and **EVERYTH
 However there's a silver lining. You can easily make this code beautiful using Streams and its map operator.
 Operators mostly take [lambda functions](https://image.slidesharecdn.com/javafp-forpdf-130313133408-phpapp01/95/fp-in-java-project-lambda-and-beyond-5-638.jpg?cb=1363255367) or function references. 
 Check [this page](https://docs.oracle.com/javase/8/docs/api/java/util/stream/package-summary.html) for docs. 
-To start a Stream from an array of values, use the static [of](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#of-T...-) method. 
-Don't forget to .collect() the results at the end!
+To start a Stream from an array of values, use the static Stream.[of](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#of-T...-) method. 
+Don't forget to [.collect()](https://docs.oracle.com/javase/8/docs/api/java/util/stream/Stream.html#collect-java.util.stream.Collector-) 
+the results at the end to collect all the elements in a collection again. Why not return the stream itself?
+Good question, attentive reader. You certainly can. Whether it's a good idea [depends on the context](https://stackoverflow.com/questions/24676877/should-i-return-a-collection-or-a-stream). 
 
 > P.S. If you want to use your own IDE, you can clone the project for this playground by clicking the GitHub button on the right.
 > The inline editor from tech.io does have IntelliSense (Ctrl+space) but it's not foolproof. 

@@ -27,10 +27,10 @@ Remember, you can find the documentation on Streams [right here](https://docs.or
     "command": "com.yourself.UnderAgeTest#getKidNameShouldReturnNamesOfAllKidsUnder18"
 })
 
-Not very interesting as an exercise, but check out this [exercise](https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/#gist15618501) 
-about how to easily generate numerical statistics from an IntStream.
+Not very interesting as an exercise, but check out this [example](https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/#gist15618501) 
+of how to easily generate numerical statistics from an IntStream.
 
-@[Partition these people into adults and kids (adult age is higher or equal than 18), you'll need a special collector for this one]({
+@[Partition these people into adults and kids, you'll need a special collector for this one]({
     "stubs": ["src/main/java/com/yourself/PartitionBy.java"], 
     "command": "com.yourself.PartitionByTest#partitionAdultsShouldSeparateKidsFromAdults"
 })
