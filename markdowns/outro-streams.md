@@ -1,6 +1,6 @@
 # What's so good about Streams?
 If you haven't noticed how much more readable and declarative they are, you might have bonked the exercises.
-Still, there's another great advantage in using streams: abstract parallelism.
+Still, there's another great advantage in using Streams: abstract parallelism.
 An article from [DZone](https://dzone.com/articles/understanding-java-8-streams-1) explains a bit more.
 
 # Understanding the Java 8 Streams API
