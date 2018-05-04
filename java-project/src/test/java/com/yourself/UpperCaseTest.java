@@ -11,9 +11,9 @@ public class UpperCaseTest {
 
 	@Test
 	public void test() {
-		System.out.println("Testing if [jones, aaron, seppe, frank, gilliam] returns [JONES, AARON, SEPPE, FRANK, GILLIAM]");
-    assertTrue(mapToUppercase("jones", "aaron", "seppe", "frank", "gilliam")
-      .containsAll(asList("JONES", "AARON", "SEPPE", "FRANK", "GILLIAM")));
+		System.out.println("Testing if [aaron, frank, william, gilliam] returns [AARON, FRANK, WILLIAM, GILLIAM]");
+    assertTrue(mapToUppercase("aaron", "frank", "william", "gilliam")
+      .containsAll(asList("AARON", "FRANK", "WILLIAM", "GILLIAM")));
 
 		System.out.println("Testing if [cegeka] returns [CEGEKA]");
 		assertTrue(mapToUppercase("cegeka")
