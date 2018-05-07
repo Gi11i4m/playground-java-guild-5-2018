@@ -15,7 +15,7 @@ plan:
   - title: Practice
     statement: markdowns/optionals-exercises.md
   - title: Outro
-    statement: markdowns/optionals-outro.md.md
+    statement: markdowns/optionals-outro.md
 
 
 # Settings for your programming projects and the associated Docker images
