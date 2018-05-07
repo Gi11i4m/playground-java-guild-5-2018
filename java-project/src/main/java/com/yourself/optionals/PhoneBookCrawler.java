@@ -16,7 +16,7 @@ public class PhoneBookCrawler {
         return null;
     }
 
-    public String findPhoneNumberByNameOrByPhoneNumber(String name, String phoneNumber){
+    public String findPhoneNumberByNameOrNameByPhoneNumber(String name, String phoneNumber){
         return null;
     }
 
