@@ -1,4 +1,4 @@
-package com.cegeka.javaguild.optionals;
+package com.yourself.optionals;
 
 import org.junit.Rule;
 import org.junit.Test;
