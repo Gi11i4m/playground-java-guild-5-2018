@@ -9,31 +9,12 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class PhoneBookTest {
+public class PhoneBook_FindNameByPhoneNumberTest {
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
 
     private PhoneBook phoneBook = new PhoneBook();
-
-    @Test
-    public void findPhoneNumberByName() {
-        String josDeVos = "Jos de Vos";
-
-        Optional<String> phoneNumber = phoneBook.findPhoneNumberByName(josDeVos);
-
-        assertThat(phoneNumber.get()).isEqualTo("016/16161616");
-    }
-
-    @Test
-    public void findPhoneNumberByName_NotFound() {
-        expectedException.expect(NoSuchElementException.class);
-
-        String josDeVos = "Jos de Vos";
-        Optional<String> phoneNumber = phoneBook.findPhoneNumberByName(josDeVos);
-
-        phoneNumber.get();
-    }
 
     @Test
     public void findNameByPhoneNumber() {
