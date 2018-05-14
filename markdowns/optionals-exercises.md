@@ -9,8 +9,7 @@ The exercises for optionals will focus around a _PhoneBook_ class. The phone boo
 Implement _findPhoneNumberByName_ in _PhoneBook_ class that returns an optional.
 (No streams)
 
-@[Implement _findPhoneNumberByName_ in _PhoneBook_ class that returns an optional.
-  (No streams)]({
+@[Implement _findPhoneNumberByName_ in _PhoneBook_ class that returns an optional. (No streams)]({
     "stubs": ["src/main/java/com/yourself/optionals/PhoneBook.java"], 
     "command": "com.yourself.optionals.PhoneBook_FindPhoneNumberByNameTest"
 })
