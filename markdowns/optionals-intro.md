@@ -11,4 +11,6 @@ In today's exercises, the focus will be on:
 - Syntax of Optionals
 - What to when an API returns an Optional
 - Optionals and Streams
+
+Documentation about Optionals can be found [here](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
  
