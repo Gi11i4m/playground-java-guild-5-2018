@@ -1,7 +1,6 @@
 package com.yourself.optionals;
 
-import java.util.HashMap;
-import java.util.Optional;
+import java.util.*;
 
 public class PhoneBook {
 

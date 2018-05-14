@@ -7,30 +7,59 @@ The exercises for optionals will focus around a _PhoneBook_ class. The phone boo
 
 ### Exercise 1:
 Implement _findPhoneNumberByName_ in _PhoneBook_ class that returns an optional.
-(No streams)
 
-@[Implement findPhoneNumberByName in PhoneBook class that returns an optional. (No streams)]({
+@[Write the implementation]({
     "stubs": ["src/main/java/com/yourself/optionals/PhoneBook.java", "src/test/java/com/yourself/optionals/PhoneBook_FindPhoneNumberByNameTest.java"], 
     "command": "com.yourself.optionals.PhoneBook_FindPhoneNumberByNameTest"
 })
 
 ### Exercise 2:
-Implement _findPhoneNumberByNameAndPunishIfNothingFound_ in _PhoneBookCrawler_ that uses the implementation from exercise 1
+Implement _findPhoneNumberByNameAndPunishIfNothingFound_ in _PhoneBookCrawler_ that uses the implementation from exercise 1.
+Punish with an _IllegalArgumentException_ and message "No phone number found".
+
+@[Write the implementation]({
+    "stubs": ["src/main/java/com/yourself/optionals/PhoneBookCrawler.java"], 
+    "command": "com.yourself.optionals.PhoneBookCrawlerExercise2Test"
+})
 
 ### Exercise 3:
 Implement _findPhoneNumberByNameAndPrintPhoneBookIfNothingFound_ in _PhoneBookCrawler_ that uses the implementation from exercise 1
+@[Write the implementation]({
+    "stubs": ["src/main/java/com/yourself/optionals/PhoneBookCrawler.java", "src/main/java/com/yourself/optionals/PhoneBook.java"], 
+    "command": "com.yourself.optionals.PhoneBookCrawlerExercise3Test"
+})
 
 ### Exercise 4
 Did you receive a Hello message from the _PhoneBook_'s toString method?
-If yes, reimplement the exercise 3 to avoid it get's printed.
+If yes, reimplement exercise 3 to avoid it get's printed.
 If no, reimplement exercise 3 to have it actually printed.
+
+@[Write the implementation]({
+    "stubs": ["src/main/java/com/yourself/optionals/PhoneBookCrawler.java", "src/main/java/com/yourself/optionals/PhoneBook.java"], 
+    "command": "com.yourself.optionals.PhoneBookCrawlerExercise3Test"
+})
 
 ### Exercise 5
 Can you reimplement exercise 2 using streams instead of using _PhoneBook_'s _findPhoneNumberByName_
 
+@[Write the implementation]({
+    "stubs": ["src/main/java/com/yourself/optionals/PhoneBookCrawler.java"], 
+    "command": "com.yourself.optionals.PhoneBookCrawlerExercise2StreamsTest"
+})
+
 ### Exercise 6
 Can you reimplement exercise 3 using streams instead of using _PhoneBook_'s _findPhoneNumberByName_
+
+@[Write the implementation]({
+    "stubs": ["src/main/java/com/yourself/optionals/PhoneBookCrawler.java", "src/main/java/com/yourself/optionals/PhoneBook.java"], 
+    "command": "com.yourself.optionals.PhoneBookCrawlerExercise3StreamsTest"
+})
 
 ### Exercise 7
 Implement _findNameByPhoneNumber_ in _PhoneBook_ class that returns an optional.
 Implement _findPhoneNumberByNameOrNameByPhoneNumber_ in _PhoneBookCrawler_ class. First search the phone book by name. If that returns nothing search the phone book by phone number. If that still returns nothing return the phone number of Jos de Vos.
+
+@[Write the implementation]({
+    "stubs": ["src/main/java/com/yourself/optionals/PhoneBook.java", "src/main/java/com/yourself/optionals/PhoneBookCrawler.java"], 
+    "command": "com.yourself.optionals.PhoneBookCrawlerExercise7Test"
+})
