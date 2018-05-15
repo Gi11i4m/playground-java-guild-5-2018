@@ -16,6 +16,10 @@ plan:
     statement: markdowns/optionals-exercises.md
   - title: Outro
     statement: markdowns/optionals-outro.md
+  - title: Generics
+      statement: markdowns/generics-exercise-1.md
+  - title: Generifying existing code
+      statement: markdowns/generics-exercise-2.md
 
 
 # Settings for your programming projects and the associated Docker images
