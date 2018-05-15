@@ -2,13 +2,13 @@ title: Java Guild Meeting 5/2018
 
 # Table of content
 plan:
-  - title: Intro # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/intro.md # Set the file path to the page content
+  - title: Intro to Streams
+    statement: markdowns/intro.md
   - title: Practice
     statement: markdowns/practice.md
   - title: Micro kata's
     statement: markdowns/micro-katas.md
-  - title: Outro
+  - title: Summary
     statement: markdowns/outro-streams.md
   - title: Optionals
     statement: markdowns/optionals-intro.md
