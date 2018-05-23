@@ -1,6 +1,7 @@
 # Micro kata's
-Here are a few micro kata's for you to solve, let's get to know some more possibilities of Streams! 
-If you want to know if your solution is optimal you can take look at the [(source & solutions)](https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/).
+Here are a few micro kata's for you to solve, let's get to know some more possibilities of Streams!
+
+If you want to know if your solution is optimal you can take look at the [source & solutions](https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/).
 
 The kata's are written in old-style Java code. Re-write them into beautiful one-liners using Streams.
 
@@ -14,7 +15,7 @@ Remember, you can find the documentation on Streams [right here](https://docs.or
 })
 
 @[Get the oldest person from the collection]({
-    "stubs": ["src/main/java/streams/MaxAndComparator.java", "src/test/java/streams/MaxAndComparatorTest.java"], 
+    "stubs": ["src/main/java/streams/MaxAndComparator.java", "src/main/java/streams/Person.java", "src/test/java/streams/MaxAndComparatorTest.java"], 
     "command": "streams.MaxAndComparatorTest#getOldestPersonShouldReturnOldestPerson"
 })
 
@@ -24,7 +25,7 @@ Remember, you can find the documentation on Streams [right here](https://docs.or
 })
 
 @[Get the names of all kids under the age of 18]({
-    "stubs": ["src/main/java/streams/UnderAge.java", "src/test/java/streams/UnderAgeTest.java"], 
+    "stubs": ["src/main/java/streams/UnderAge.java", "src/main/java/streams/Person.java", "src/test/java/streams/UnderAgeTest.java"], 
     "command": "streams.UnderAgeTest#getKidNameShouldReturnNamesOfAllKidsUnder18"
 })
 
@@ -32,16 +33,16 @@ Not very interesting as an exercise, but check out this [example](https://techno
 of how to easily generate numerical statistics from an IntStream.
 
 @[Partition these people into adults and kids, you'll need a special collector for this one]({
-    "stubs": ["src/main/java/streams/PartitionBy.java", "src/test/java/streams/PartitionByTest.java"], 
+    "stubs": ["src/main/java/streams/PartitionBy.java", "src/main/java/streams/Person.java", "src/test/java/streams/PartitionByTest.java"], 
     "command": "streams.PartitionByTest#partitionAdultsShouldSeparateKidsFromAdults"
 })
 
 @[Group these people by nationality, same kind as the previous exercise]({
-    "stubs": ["src/main/java/streams/GroupBy.java", "src/test/java/streams/GroupByTest.java"], 
+    "stubs": ["src/main/java/streams/GroupBy.java", "src/main/java/streams/Person.java", "src/test/java/streams/GroupByTest.java"], 
     "command": "streams.GroupByTest#groupByNationalityTest"
 })
 
 @[Return a comma-separated string of all these people's names]({
-    "stubs": ["src/main/java/streams/Joining.java", "src/test/java/streams/JoiningTest.java"], 
+    "stubs": ["src/main/java/streams/Joining.java", "src/main/java/streams/Person.java", "src/test/java/streams/JoiningTest.java"], 
     "command": "streams.JoiningTest#toStringShouldReturnPeopleNamesSeparatedByComma"
 })

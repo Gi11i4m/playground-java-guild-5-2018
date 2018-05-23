@@ -5,7 +5,7 @@ Hi, welcome to the Java Guild Meeting of May 2018.
 The theme of this meeting is **exploring Java**. Some of the features we're going to touch might be very familiar to you while others might be completely foreign concepts or subjects you're a little less experienced in. The goal is to enable you to use more of the Java language after this event.
 
 ## Tech.io
-Originally, we planned to use this platform, **tech.io** to let you do these exercises online without any setup. Tech.io was made to easily create interesting interactive lessons. 
+Originally, we planned to use this platform, **tech.io**, to let you do these exercises online without any setup. Tech.io was made to easily create interesting interactive lessons. 
 
 Unfortunately the embedded code editor has let us down a bit. While extensive and providing some IntelliSense, it's not an IDE. It doesn't resolve imports and still has some annoying bugs.
 

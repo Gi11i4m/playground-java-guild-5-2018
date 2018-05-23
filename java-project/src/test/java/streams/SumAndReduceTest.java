@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class SumAndReduceTest {
 
   @Test
-  public void transformShouldConvertCollectionElementsToUpperCase() {
+  public void calculateShouldSumAllNumbers() {
     List<Integer> numbers = asList(1, 2, 3, 4, 5);
     Assertions.assertThat(SumAndReduce.calculate(numbers)).isEqualTo(1 + 2 + 3 + 4 + 5);
   }
