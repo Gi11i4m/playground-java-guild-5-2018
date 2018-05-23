@@ -6,5 +6,5 @@ Now that we know how to use Streams, let's try another exercise and get to know 
 
 @[Now, starting again from a list of names, give me the total number of letters in all the names with more than 5 letters]({
     "stubs": ["src/main/java/streams/LetterCount.java", "src/test/java/streams/LetterCountTest.java"],
-    "command": "com.yourself.LetterCountTest#test"
+    "command": "streams.LetterCountTest#test"
 })
