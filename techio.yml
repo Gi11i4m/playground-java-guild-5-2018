@@ -1,26 +1,28 @@
 title: Java Guild Meeting 5/2018
 
-# Table of content
 plan:
-  - title: Intro to Streams
+  - title: Welcome
     statement: markdowns/intro.md
-  - title: Practice
-    statement: markdowns/practice.md
-  - title: Micro kata's
-    statement: markdowns/micro-katas.md
-  - title: Summary
-    statement: markdowns/outro-streams.md
+  - title: Streams | Intro
+    statement: markdowns/streams/intro.md
+  - title: Streams | Practice
+    statement: markdowns/streams/practice.md
+  - title: Streams | Micro kata's
+    statement: markdowns/streams/micro-katas.md
+  - title: Streams | Summary
+    statement: markdowns/streams/outro-streams.md
   - title: Optionals
-    statement: markdowns/optionals-intro.md
-  - title: Practice
-    statement: markdowns/optionals-exercises.md
-  - title: Outro
-    statement: markdowns/optionals-outro.md
+    statement: markdowns/optionals/optionals-intro.md
+  - title: Optionals | Practice
+    statement: markdowns/optionals/optionals-exercises.md
+  - title: Optionals | Outro
+    statement: markdowns/optionals/optionals-outro.md
   - title: Generics
-    statement: markdowns/generics-exercise-1.md
-  - title: Generifying existing code
-    statement: markdowns/generics-exercise-2.md
-
+    statement: markdowns/generics/generics-exercise-1.md
+  - title: Generics | Generifying existing code
+    statement: markdowns/generics/generics-exercise-2.md
+  - title: Thanks for playing!
+    statement: markdowns/outro.md
 
 # Settings for your programming projects and the associated Docker images
 projects:

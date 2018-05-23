@@ -19,14 +19,14 @@ public class UnionUtilTest {
 
 
 
-//    @Test
-//    public void unionOfChocolateCakes() throws Exception {
-//        List<ChocolateCake> firstList = Arrays.asList(new ChocolateCake(1), new ChocolateCake(3));
-//        List<ChocolateCake> secondList = Arrays.asList(new ChocolateCake(2), new ChocolateCake(20));
-//
+    @Test
+    public void unionOfChocolateCakes() throws Exception {
+        List<ChocolateCake> firstList = Arrays.asList(new ChocolateCake(1), new ChocolateCake(3));
+        List<ChocolateCake> secondList = Arrays.asList(new ChocolateCake(2), new ChocolateCake(20));
+
 //        assertThat(UnionUtil.union(firstList, secondList))
 //                  .containsExactly(new ChocolateCake(1), new ChocolateCake(3), new ChocolateCake(2), new ChocolateCake(20));
-//    }
+    }
 //
 //    @Test
 //    public void unionOfChocolateCakesAndStuffedChocolateCakes() throws Exception {
