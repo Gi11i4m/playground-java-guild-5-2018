@@ -1,5 +1,6 @@
 # Micro kata's
-Here are a few micro kata's for you to solve, let's get to know some more possibilities of Streams! [(source & solutions)](https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/)
+Here are a few micro kata's for you to solve, let's get to know some more possibilities of Streams! 
+If you want to know if your solution is optimal you can take look at the [(source & solutions)](https://technologyconversations.com/2014/11/04/java-8-streams-micro-katas/).
 
 The kata's are written in old-style Java code. Re-write them into beautiful one-liners using Streams.
 
