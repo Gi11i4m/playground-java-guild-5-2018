@@ -1,6 +1,6 @@
-package streams;
-
 // { autofold
+package streams;
+// }
 class Person {
 
 	private String name;

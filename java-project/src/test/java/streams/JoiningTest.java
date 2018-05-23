@@ -1,3 +1,4 @@
+// { autofold
 package streams;
 
 import org.junit.Test;
@@ -9,6 +10,7 @@ import static java.util.Arrays.asList;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 public class JoiningTest {
+// }
 
   @Test
   public void toStringShouldReturnPeopleNamesSeparatedByComma() {
@@ -20,4 +22,6 @@ public class JoiningTest {
         .isEqualTo("Names: Sara, Viktor, Eva.");
   }
 
+// { autofold
 }
+// }

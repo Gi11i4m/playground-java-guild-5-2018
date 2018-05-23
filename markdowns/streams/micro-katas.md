@@ -21,7 +21,7 @@ Remember, you can find the documentation on Streams [right here](https://docs.or
 
 @[Sum all elements of a collection, try to use the reduce operator with identity parameter instead of an IntStream]({
     "stubs": ["src/main/java/streams/SumAndReduce.java", "src/test/java/streams/SumAndReduceTest.java"], 
-    "command": "streams.SumAndReduceTest#transformShouldConvertCollectionElementsToUpperCase"
+    "command": "streams.SumAndReduceTest#calculateShouldSumAllNumbers"
 })
 
 @[Get the names of all kids under the age of 18]({
@@ -45,4 +45,14 @@ of how to easily generate numerical statistics from an IntStream.
 @[Return a comma-separated string of all these people's names]({
     "stubs": ["src/main/java/streams/Joining.java", "src/main/java/streams/Person.java", "src/test/java/streams/JoiningTest.java"], 
     "command": "streams.JoiningTest#toStringShouldReturnPeopleNamesSeparatedByComma"
+})
+
+## Challenge
+Write a method that returns a comma separated string based on a given list of integers. Each element should be preceded by the letter 'e' if the number is even, and preceded by the letter 'o' if the number is odd. For example, if the input list is (3,44), the output should be 'o3,e44'.
+
+You can write this using only one operator and one collect statement. Go [here](http://code-exercises.com/programming/medium/22/comma-separated-java-8-lambdas-and-streams) and click 'Solution' if you want to see the optimal solution.
+
+@[Return a comma-separated string of all these people's names]({
+    "stubs": ["src/main/java/streams/Challenge.java", "src/test/java/streams/ChallengeTest.java"], 
+    "command": "streams.ChallengeTest#toStringShouldReturnPeopleNamesSeparatedByComma"
 })

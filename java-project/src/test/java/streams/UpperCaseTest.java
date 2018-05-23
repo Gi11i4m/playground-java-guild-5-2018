@@ -1,3 +1,4 @@
+// { autofold
 package streams;
 
 import org.junit.Test;
@@ -8,6 +9,7 @@ import static java.util.Collections.singletonList;
 import static org.junit.Assert.assertTrue;
 
 public class UpperCaseTest {
+// }
 
 	@Test
 	public void test() {
@@ -19,4 +21,7 @@ public class UpperCaseTest {
 		assertTrue(mapToUppercase("cegeka")
       .containsAll(singletonList("CEGEKA")));
 	}
+
+// { autofold
 }
+// }

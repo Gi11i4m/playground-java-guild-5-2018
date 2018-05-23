@@ -1,3 +1,4 @@
+// { autofold
 package streams;
 
 import org.junit.Test;
@@ -9,6 +10,7 @@ import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class UnderAgeTest {
+// }
 
   @Test
   public void getKidNameShouldReturnNamesOfAllKidsUnder18() {
@@ -21,4 +23,7 @@ public class UnderAgeTest {
         .contains("Sara", "Anna")
         .doesNotContain("Viktor", "Eva");
   }
+
+// { autofold
 }
+// }

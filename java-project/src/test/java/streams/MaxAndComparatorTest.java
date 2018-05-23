@@ -1,3 +1,4 @@
+// { autofold
 package streams;
 
 import org.assertj.core.api.Assertions;
@@ -8,8 +9,8 @@ import java.util.List;
 import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 public class MaxAndComparatorTest {
+// }
 
   @Test
   public void getOldestPersonShouldReturnOldestPerson() {
@@ -17,6 +18,9 @@ public class MaxAndComparatorTest {
     Person viktor = new Person("Viktor", 40);
     Person eva = new Person("Eva", 42);
     List<Person> collection = asList(sara, eva, viktor);
-    Assertions.assertThat(MaxAndComparator.getOldestPerson(collection)).isEqualToComparingFieldByField(eva);
+    assertThat(MaxAndComparator.getOldestPerson(collection)).isEqualToComparingFieldByField(eva);
   }
+
+// { autofold
 }
+// }

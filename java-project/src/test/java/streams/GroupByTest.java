@@ -1,3 +1,4 @@
+// { autofold
 package streams;
 
 import org.assertj.core.api.Assertions;
@@ -10,6 +11,7 @@ import static java.util.Arrays.asList;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class GroupByTest {
+// }
 
   @Test
   public void groupByNationalityTest() {
@@ -18,7 +20,10 @@ public class GroupByTest {
     Person eva = new Person("Eva", 42, "Norwegian");
     List<Person> collection = asList(sara, eva, viktor);
     Map<String, List<Person>> result = groupByNationality(collection);
-    Assertions.assertThat(result.get("Norwegian")).hasSameElementsAs(asList(sara, eva));
-    Assertions.assertThat(result.get("Serbian")).hasSameElementsAs(asList(viktor));
+    assertThat(result.get("Norwegian")).hasSameElementsAs(asList(sara, eva));
+    assertThat(result.get("Serbian")).hasSameElementsAs(asList(viktor));
   }
+
+// { autofold
 }
+// }

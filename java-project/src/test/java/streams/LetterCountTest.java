@@ -1,3 +1,4 @@
+// { autofold
 package streams;
 
 import org.junit.Test;
@@ -6,6 +7,7 @@ import static streams.LetterCount.getTotalNumberOfLettersOfNamesLongerThanFive;
 import static org.junit.Assert.*;
 
 public class LetterCountTest {
+// }
 
   @Test
   public void test() {
@@ -15,4 +17,7 @@ public class LetterCountTest {
     System.out.println("Testing if [aaron] returns 0");
     assertEquals(getTotalNumberOfLettersOfNamesLongerThanFive("aaron"), 0);
   }
+
+// { autofold
 }
+// }
