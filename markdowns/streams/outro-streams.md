@@ -36,7 +36,7 @@ Java 8 Stream operations has methods like foreach, map, filter, etc. which inter
 the code is completely unaware of the iteration logic in the background.
 
 ````java
-List<String> names =newArrayList<>();
+List<String> names = newArrayList<>();
 for(Student student : students){
     if(student.getName().startsWith("A")){
       names.add(student.getName());
