@@ -1,8 +1,10 @@
 package optionals;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Optional;
 
-public class PhoneBook {
+public class PhoneBookSolved {
 
     private static final HashMap<String, String> PHONE_NUMBERS = new HashMap<String, String>() {
         {
@@ -14,18 +16,26 @@ public class PhoneBook {
 
     private HashMap<String, String> phoneBookEntries = PHONE_NUMBERS;
 
-    PhoneBook() { }
+    PhoneBookSolved() { }
 
     public HashMap<String, String> getPhoneBookEntries() {
         return phoneBookEntries;
     }
 
     public Optional<String> findPhoneNumberByName(String name){
-        return null;
+        if (phoneBookEntries.containsKey(name)){
+            return Optional.of(phoneBookEntries.get(name));
+        }
+        return Optional.empty();
     }
 
     public Optional<String> findNameByPhoneNumber(String phoneNumber){
-        return null;
+        for (Map.Entry<String, String> entry : phoneBookEntries.entrySet()){
+            if (entry.getValue().equals(phoneNumber)){
+                return Optional.of(entry.getKey());
+            }
+        }
+        return Optional.empty();
     }
 
     @Override
