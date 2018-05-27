@@ -1,28 +1,29 @@
 package optionals;
 
+import java.util.Optional;
+import java.util.stream.Stream;
+
 public class PhoneBookCrawler {
 
-    private PhoneBook phoneBook;
+    private PhoneBookSolved phoneBook;
 
-    public PhoneBookCrawler(PhoneBook phoneBook) {
+    public PhoneBookCrawler(PhoneBookSolved phoneBook) {
         this.phoneBook = phoneBook;
     }
 
     public String findPhoneNumberByNameAndPunishIfNothingFound(String name){
-        return phoneBook
-            .findPhoneNumberByName(name)
-            .orElseThrow(() -> new IllegalArgumentException("No phone number found"));
+        return null;
     }
 
     public String findPhoneNumberByNameAndPrintPhoneBookIfNothingFound(String name){
-        return phoneBook.findPhoneNumberByName(name).orElseGet(() -> phoneBook.toString());
+        return null;
     }
 
     public String findPhoneNumberByNameOrNameByPhoneNumber(String name, String phoneNumber){
         return null;
     }
 
-    public PhoneBook getPhoneBook(){
+    public PhoneBookSolved getPhoneBook(){
         return phoneBook;
     }
 

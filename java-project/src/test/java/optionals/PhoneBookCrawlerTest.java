@@ -11,7 +11,7 @@ public class PhoneBookCrawlerTest {
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
 
-    private PhoneBookCrawler phoneBookCrawler = new PhoneBookCrawler(new PhoneBook());
+    private PhoneBookCrawler phoneBookCrawler = new PhoneBookCrawler(new PhoneBookSolved());
 
     @Test
     public void findPhoneNumberByNameAndPunishIfNothingFound() {
