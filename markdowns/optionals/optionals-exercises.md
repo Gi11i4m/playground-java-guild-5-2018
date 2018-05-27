@@ -6,15 +6,15 @@ The exercises for optionals will focus around a _PhoneBook_ class. The phone boo
 - Kris de Vis
 
 ### Exercise 1:
-Implement _findPhoneNumberByName_ in _PhoneBook_ class that returns an optional.
+Implement _findPhoneNumberByName_ and _findNameByPhoneNumber_ in _PhoneBook_ class that returns an optional. An empty optional must be returned if nothing is found.
 
 @[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBook.java", "src/test/java/optionals/PhoneBook_FindPhoneNumberByNameTest.java"], 
-    "command": "optionals.PhoneBook_FindPhoneNumberByNameTest"
+    "stubs": ["src/main/java/optionals/PhoneBook.java", "src/test/java/optionals/PhoneBookTest.java"], 
+    "command": "optionals.PhoneBookTest"
 })
 
 ### Exercise 2:
-Implement _findPhoneNumberByNameAndPunishIfNothingFound_ in _PhoneBookCrawler_ that uses the implementation from exercise 1.
+Implement _findPhoneNumberByNameAndPunishIfNothingFound_ in _PhoneBookCrawler_ that uses an implementation of the PhoneBook class.
 Punish with an _IllegalArgumentException_ and message "No phone number found".
 
 @[Write the implementation]({
@@ -25,21 +25,23 @@ Punish with an _IllegalArgumentException_ and message "No phone number found".
 ### Exercise 3:
 Implement _findPhoneNumberByNameAndPrintPhoneBookIfNothingFound_ in _PhoneBookCrawler_ that uses the implementation from exercise 1
 @[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/main/java/optionals/PhoneBook.java"], 
+    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java"], 
     "command": "optionals.PhoneBookCrawlerExercise3Test"
 })
 
 ### Exercise 4
-Did you receive a Hello message from the _PhoneBook_'s toString method?
-If yes, reimplement exercise 3 to avoid it get's printed.
-If no, reimplement exercise 3 to have it actually printed.
+Did you receive 1 or 2 Hello messages from the _PhoneBook_'s toString method when you ran the tests?
+If you received 2 Hello messages, reimplement it so that you receive only 1 Hello message after running the tests.
+If you received just 1 Hello message, reimplement exercise 3 to have it actually printed twice.
 
 @[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/main/java/optionals/PhoneBook.java"], 
+    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java"], 
     "command": "optionals.PhoneBookCrawlerExercise3Test"
 })
 
 ### Exercise 5
+After the 2 previous exercises, you should now know the difference between using the orElse and orElseGet methods.
+Optionals also work nicely with streams
 Can you reimplement exercise 2 using streams instead of using _PhoneBook_'s _findPhoneNumberByName_
 
 @[Write the implementation]({
@@ -48,18 +50,11 @@ Can you reimplement exercise 2 using streams instead of using _PhoneBook_'s _fin
 })
 
 ### Exercise 6
-Can you reimplement exercise 3 using streams instead of using _PhoneBook_'s _findPhoneNumberByName_
-
-@[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/main/java/optionals/PhoneBook.java"], 
-    "command": "optionals.PhoneBookCrawlerExercise3StreamsTest"
-})
-
-### Exercise 7
-Implement _findNameByPhoneNumber_ in _PhoneBook_ class that returns an optional.
 Implement _findPhoneNumberByNameOrNameByPhoneNumber_ in _PhoneBookCrawler_ class. First search the phone book by name. If that returns nothing search the phone book by phone number. If that still returns nothing return the phone number of Jos de Vos.
 
 @[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBook.java", "src/main/java/optionals/PhoneBookCrawler.java"], 
+    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java"], 
     "command": "optionals.PhoneBookCrawlerExercise7Test"
 })
+
+The exercises focused on Java 8 Optional features. Java 9 introduced has introduced the _or_ method that should allow an easier implementation for the last exercise.
