@@ -8,9 +8,14 @@ If you need to refresh your memory, you can check out some info [here](https://d
 Don't forget that e.g. `List<String>` is not a subclass of `List<Object>`, but `String[]` does inherit from `Object[]`!. 
 
 The first exercise is to implement a function that calculates the union of two lists.
-There is no code yet, but the second box contains a list of tests.
-Work iteratively from the first test to the last, uncomment one test at a time.
-You can only proceed once the test compiles and succeeds!
+There is no code yet, but the second box contains a list of tests (Tech.io).
+
+How to proceed:
+
+* Work iteratively from the first test to the last, uncommenting one test at a time.
+* Don't alter the test code to make it work ;)
+* KISS! Only inject as much generics as needed to make the test compile
+* You can only proceed once the test compiles and succeeds!
 
 The tests use a class history that is as follows:
 
