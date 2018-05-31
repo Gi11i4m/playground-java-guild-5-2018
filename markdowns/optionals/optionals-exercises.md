@@ -25,8 +25,8 @@ Punish with an _IllegalArgumentException_ and message "No phone number found".
 ### Exercise 3:
 Implement _findPhoneNumberByNameAndPrintPhoneBookIfNothingFound_ in _PhoneBookCrawler_ that uses the implementation from exercise 1
 @[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/test/java/optionals/PhoneBookCrawlerExercise3Test.java"], 
-    "command": "optionals.PhoneBookCrawlerExercise3Test"
+    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/test/java/optionals/PhoneBookCrawlerTestExercise3Test.java"], 
+    "command": "optionals.PhoneBookCrawlerTestExercise3Test"
 })
 
 ### Exercise 4
@@ -35,8 +35,8 @@ If you received 2 Hello messages, reimplement it so that you receive only 1 Hell
 If you received just 1 Hello message, reimplement exercise 3 to have it actually printed twice.
 
 @[Write the implementation]({
-    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/test/java/optionals/PhoneBookCrawlerExercise3Test.java"], 
-    "command": "optionals.PhoneBookCrawlerExercise3Test"
+    "stubs": ["src/main/java/optionals/PhoneBookCrawler.java", "src/test/java/optionals/PhoneBookCrawlerTestExercise3Test.java"], 
+    "command": "optionals.PhoneBookCrawlerTestExercise3Test"
 })
 
 ### Exercise 5
