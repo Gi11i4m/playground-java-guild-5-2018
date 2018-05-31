@@ -57,4 +57,4 @@ Implement _findPhoneNumberByNameOrNameByPhoneNumber_ in _PhoneBookCrawler_ class
     "command": "optionals.PhoneBookCrawlerExercise6Test"
 })
 
-The exercises focused on Java 8 Optional features. Java 9 introduced has introduced the _or_ method that should allow an easier implementation for the last exercise.
+The exercises focused on Java 8 Optional features. Java 9 has introduced the _or_ method that should allow an easier implementation for the last exercise.
