@@ -4,9 +4,9 @@ import org.junit.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class PhoneBookCrawlerTestExercise7Test {
+public class PhoneBookCrawlerTestExercise6Test {
 
-    private PhoneBookCrawler phoneBookCrawler = new PhoneBookCrawler(new PhoneBookSolved());
+    private PhoneBookCrawler phoneBookCrawler = new PhoneBookCrawler(new PhoneBook2());
 
     @Test
     public void findPhoneNumberByNameOrNameByPhoneNumber_foundByName() {

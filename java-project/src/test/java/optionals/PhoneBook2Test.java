@@ -9,12 +9,12 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class PhoneBookSolvedTest {
+public class PhoneBook2Test {
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();
 
-    private PhoneBookSolved phoneBook = new PhoneBookSolved();
+    private PhoneBook2 phoneBook = new PhoneBook2();
 
     @Test
     public void findPhoneNumberByName() {

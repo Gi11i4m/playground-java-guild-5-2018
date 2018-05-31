@@ -1,13 +1,10 @@
 package optionals;
 
-import java.util.Optional;
-import java.util.stream.Stream;
-
 public class PhoneBookCrawler {
 
-    private PhoneBookSolved phoneBook;
+    private PhoneBook2 phoneBook;
 
-    public PhoneBookCrawler(PhoneBookSolved phoneBook) {
+    public PhoneBookCrawler(PhoneBook2 phoneBook) {
         this.phoneBook = phoneBook;
     }
 
@@ -23,7 +20,7 @@ public class PhoneBookCrawler {
         return null;
     }
 
-    public PhoneBookSolved getPhoneBook(){
+    public PhoneBook2 getPhoneBook(){
         return phoneBook;
     }
 

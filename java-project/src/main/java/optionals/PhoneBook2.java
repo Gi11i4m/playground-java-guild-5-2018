@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-public class PhoneBookSolved {
+public class PhoneBook2 {
 
     private static final HashMap<String, String> PHONE_NUMBERS = new HashMap<String, String>() {
         {
@@ -16,7 +16,7 @@ public class PhoneBookSolved {
 
     private HashMap<String, String> phoneBookEntries = PHONE_NUMBERS;
 
-    PhoneBookSolved() { }
+    PhoneBook2() { }
 
     public HashMap<String, String> getPhoneBookEntries() {
         return phoneBookEntries;
